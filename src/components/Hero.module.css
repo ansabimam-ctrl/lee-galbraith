@@ -54,7 +54,7 @@
   width: 33.33%;
   height: 72vh;
   z-index: 5;
-  background: #fff;
+  background: transparent;
 }
 
 .sideSlide {
@@ -231,12 +231,16 @@
 
 /* Responsiveness Media Queries */
 @media (max-width: 1024px) {
+  .hero {
+    height: 80vh;
+  }
+
   .statsOverlay {
     display: none;
   }
   
   .slideTrack {
-    height: 75vh;
+    height: 60vh;
   }
   
   .sideSlide {
@@ -246,24 +250,36 @@
   .slide {
     width: 80%;
     max-width: 500px;
-    height: 60vh;
+    height: 50vh;
+  }
+
+  .reflection {
+    display: none;
   }
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: 75vh;
+  }
+
   .slideTrack {
-    height: 72vh;
+    height: 52vh;
     margin-top: 2vh;
   }
   
   .slide {
     width: 85%;
-    height: 58vh;
+    height: 44vh;
   }
   
+  .blurBand {
+    height: 10vh;
+  }
+
   .navigation {
     gap: 2rem;
-    margin-top: -5rem;
+    margin-top: -3rem;
   }
   
   .looksPagination {
@@ -277,15 +293,16 @@
 
 @media (max-width: 480px) {
   .slideTrack {
-    height: 68vh;
+    height: 48vh;
+    margin-top: 1vh;
   }
   
   .slide {
     width: 90%;
-    height: 52vh;
+    height: 40vh;
   }
   
   .navigation {
-    margin-top: -4.5rem;
+    margin-top: -2.5rem;
   }
 }

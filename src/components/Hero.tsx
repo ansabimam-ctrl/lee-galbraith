@@ -23,6 +23,26 @@ const LOOK_IMAGES: Record<number, string[]> = {
     '/Look3/EBI01442.jpg', '/Look3/EBI01443.jpg', '/Look3/EBI01444.jpg', '/Look3/EBI01445.jpg',
     '/Look3/EBI01446.jpg', '/Look3/EBI01448.jpg'
   ],
+  3: [
+    '/Look4/EBI01722.jpg', '/Look4/EBI01728.jpg', '/Look4/EBI01730.jpg', '/Look4/EBI01731.jpg',
+    '/Look4/EBI01733.jpg', '/Look4/EBI01734.jpg', '/Look4/EBI01735.jpg', '/Look4/EBI01736.jpg',
+    '/Look4/EBI01737.jpg', '/Look4/EBI01738.jpg', '/Look4/EBI01739.jpg', '/Look4/EBI01740.jpg'
+  ],
+  4: [
+    '/Look5/EBI01746.jpg', '/Look5/EBI01748.jpg', '/Look5/EBI01750.jpg', '/Look5/EBI01751.jpg',
+    '/Look5/EBI01752.jpg', '/Look5/EBI01754.jpg'
+  ],
+  5: [
+    '/Look6/EBI01761.jpg', '/Look6/EBI01763.jpg', '/Look6/EBI01765.jpg', '/Look6/EBI01767.jpg',
+    '/Look6/EBI01769.jpg', '/Look6/EBI01770.jpg', '/Look6/EBI01771.jpg', '/Look6/EBI01772.jpg'
+  ],
+  6: [
+    '/Look7/EBI01773.jpg', '/Look7/EBI01774.jpg', '/Look7/EBI01775.jpg', '/Look7/EBI01776.jpg',
+    '/Look7/EBI01777.jpg', '/Look7/EBI01778.jpg', '/Look7/EBI01780.jpg'
+  ],
+  7: [
+    '/Look8/EBI01755.jpg', '/Look8/EBI01758.jpg', '/Look8/EBI01759.jpg', '/Look8/EBI01760.jpg'
+  ],
 };
 
 const Hero = () => {
@@ -47,7 +67,7 @@ const Hero = () => {
     { label: 'ACCENT', value: 'British' },
   ];
 
-  const looks = ['LOOK 1', 'LOOK 2', 'LOOK 3'];
+  const looks = ['LOOK 1', 'LOOK 2', 'LOOK 3', 'LOOK 4', 'LOOK 5', 'LOOK 6', 'LOOK 7', 'LOOK 8'];
   
   const currentImages = LOOK_IMAGES[currentLook] || Array(15).fill('/images/hero.png');
   const totalImages = currentImages.length;
