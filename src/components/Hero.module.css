@@ -325,3 +325,140 @@
     margin-top: -2.5rem;
   }
 }
+
+/* Lightbox Premium Fullscreen Overlay */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.lightboxBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.lightboxImageWrapper {
+  position: relative;
+  width: 85%;
+  height: 80vh;
+  max-width: 900px;
+  z-index: 10010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightboxImage {
+  object-fit: contain !important;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.6);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10020;
+  transition: color 0.3s;
+  line-height: 1;
+}
+
+.closeBtn:hover {
+  color: #fff;
+}
+
+.lightboxCounter {
+  position: absolute;
+  top: 2.2rem;
+  left: 2rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: var(--tracking-wide);
+  z-index: 10020;
+}
+
+.lightboxNavLeft,
+.lightboxNavRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.5);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 2rem;
+  z-index: 10020;
+  transition: color 0.3s;
+}
+
+.lightboxNavLeft:hover,
+.lightboxNavRight:hover {
+  color: #fff;
+}
+
+.lightboxNavLeft {
+  left: 2rem;
+}
+
+.lightboxNavRight {
+  right: 2rem;
+}
+
+.lightboxFooter {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: var(--tracking-extra-wide);
+  z-index: 10020;
+}
+
+@media (max-width: 768px) {
+  .lightboxImageWrapper {
+    width: 90%;
+    height: 70vh;
+  }
+  
+  .lightboxNavLeft,
+  .lightboxNavRight {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  
+  .lightboxNavLeft {
+    left: 0.5rem;
+  }
+  
+  .lightboxNavRight {
+    right: 0.5rem;
+  }
+  
+  .closeBtn {
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 2.5rem;
+  }
+  
+  .lightboxCounter {
+    top: 1.7rem;
+    left: 1.5rem;
+  }
+}
