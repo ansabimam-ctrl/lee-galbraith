@@ -43,6 +43,15 @@ const LOOK_IMAGES: Record<number, string[]> = {
   7: [
     '/Look8/EBI01755.jpg', '/Look8/EBI01758.jpg', '/Look8/EBI01759.jpg', '/Look8/EBI01760.jpg'
   ],
+  8: [
+    '/Look9/a (5).JPG', '/Look9/a (6).JPG', '/Look9/a (7).JPG', '/Look9/a (8).JPG', '/Look9/a (9).JPG',
+    '/Look9/b (10).JPG', '/Look9/b (5).JPG', '/Look9/b (6).JPG', '/Look9/b (7).JPG', '/Look9/b (8).JPG',
+    '/Look9/b (9).JPG', '/Look9/c (4).JPG', '/Look9/c (5).JPG', '/Look9/c (6).JPG', '/Look9/c (7).JPG',
+    '/Look9/c (8) - Copy.JPG', '/Look9/c (8).JPG', '/Look9/d (3).JPG', '/Look9/d (4).JPG', '/Look9/d (5).JPG',
+    '/Look9/d (6).JPG', '/Look9/e (4).JPG', '/Look9/e (5).JPG', '/Look9/e (6).JPG', '/Look9/f (10).JPG',
+    '/Look9/f (11).JPG', '/Look9/f (18).JPG', '/Look9/f (19).JPG', '/Look9/f (3).JPG', '/Look9/f (4).JPG',
+    '/Look9/f (5).JPG', '/Look9/f (9) - Copy.JPG', '/Look9/f (9).JPG'
+  ],
 };
 
 const Hero = () => {
@@ -67,7 +76,7 @@ const Hero = () => {
     { label: 'ACCENT', value: 'British' },
   ];
 
-  const looks = ['LOOK 1', 'LOOK 2', 'LOOK 3', 'LOOK 4', 'LOOK 5', 'LOOK 6', 'LOOK 7', 'LOOK 8'];
+  const looks = ['LOOK 1', 'LOOK 2', 'LOOK 3', 'LOOK 4', 'LOOK 5', 'LOOK 6', 'LOOK 7', 'LOOK 8', 'LOOK 9'];
   
   const currentImages = LOOK_IMAGES[currentLook] || Array(15).fill('/images/hero.png');
   const totalImages = currentImages.length;
