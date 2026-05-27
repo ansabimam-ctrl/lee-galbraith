@@ -24,33 +24,43 @@ const LOOK_IMAGES: Record<number, string[]> = {
     '/Look3/EBI01446.jpg', '/Look3/EBI01448.jpg'
   ],
   3: [
-    '/Look4/EBI01722.jpg', '/Look4/EBI01728.jpg', '/Look4/EBI01730.jpg', '/Look4/EBI01731.jpg',
-    '/Look4/EBI01733.jpg', '/Look4/EBI01734.jpg', '/Look4/EBI01735.jpg', '/Look4/EBI01736.jpg',
-    '/Look4/EBI01737.jpg', '/Look4/EBI01738.jpg', '/Look4/EBI01739.jpg', '/Look4/EBI01740.jpg'
+    '/Look4/a (1).jpg', '/Look4/a (2).jpg', '/Look4/a (3).jpg', '/Look4/a (19).jpg',
+    '/Look4/b (1).jpg', '/Look4/b (2).jpg', '/Look4/b (3).jpg', '/Look4/b (4).jpg',
+    '/Look4/b (18).jpg', '/Look4/b (19).jpg', '/Look4/b (1) - Copy.jpg', '/Look4/b (19) - Copy.jpg',
+    '/Look4/c (1).jpg', '/Look4/c (2).jpg', '/Look4/c (3).jpg', '/Look4/c (15).jpg',
+    '/Look4/c (3) - Copy.jpg', '/Look4/d (1).jpg', '/Look4/d (2).jpg', '/Look4/d (13).jpg',
+    '/Look4/e (3).jpg', '/Look4/e (12).jpg', '/Look4/f (1).jpg', '/Look4/f (2).jpg',
+    '/Look4/f (16).jpg', '/Look4/f (17).jpg'
   ],
   4: [
-    '/Look5/EBI01746.jpg', '/Look5/EBI01748.jpg', '/Look5/EBI01750.jpg', '/Look5/EBI01751.jpg',
-    '/Look5/EBI01752.jpg', '/Look5/EBI01754.jpg'
+    '/Look5/a (5).jpg', '/Look5/a (6).jpg', '/Look5/a (7).jpg', '/Look5/a (8).jpg', '/Look5/a (9).jpg',
+    '/Look5/b (5).jpg', '/Look5/b (6).jpg', '/Look5/b (7).jpg', '/Look5/b (8).jpg', '/Look5/b (9).jpg',
+    '/Look5/b (10).jpg', '/Look5/c (4).jpg', '/Look5/c (5).jpg', '/Look5/c (6).jpg', '/Look5/c (7).jpg',
+    '/Look5/c (8).jpg', '/Look5/c (8) - Copy.jpg', '/Look5/d (3).jpg', '/Look5/d (4).jpg', '/Look5/d (5).jpg',
+    '/Look5/d (6).jpg', '/Look5/e (4).jpg', '/Look5/e (5).jpg', '/Look5/e (6).jpg', '/Look5/f (3).jpg',
+    '/Look5/f (4).jpg', '/Look5/f (5).jpg', '/Look5/f (9).jpg', '/Look5/f (10).jpg', '/Look5/f (11).jpg',
+    '/Look5/f (18).jpg', '/Look5/f (19).jpg', '/Look5/f (9) - Copy.jpg'
   ],
   5: [
-    '/Look6/EBI01761.jpg', '/Look6/EBI01763.jpg', '/Look6/EBI01765.jpg', '/Look6/EBI01767.jpg',
-    '/Look6/EBI01769.jpg', '/Look6/EBI01770.jpg', '/Look6/EBI01771.jpg', '/Look6/EBI01772.jpg'
+    '/Look6/a (10).jpg', '/Look6/a (11).jpg', '/Look6/a (12).jpg', '/Look6/a (11) - Copy.jpg',
+    '/Look6/b (11).jpg', '/Look6/b (12).jpg', '/Look6/b (13).jpg', '/Look6/c (9).jpg',
+    '/Look6/c (10).jpg', '/Look6/c (11).jpg', '/Look6/d (8).jpg', '/Look6/d (9).jpg',
+    '/Look6/d (10).jpg', '/Look6/d (10) - Copy.jpg', '/Look6/e (7).jpg', '/Look6/e (8).jpg',
+    '/Look6/e (9).jpg', '/Look6/f (6).jpg', '/Look6/f (7).jpg', '/Look6/f (12).jpg',
+    '/Look6/f (13).jpg'
   ],
   6: [
-    '/Look7/EBI01773.jpg', '/Look7/EBI01774.jpg', '/Look7/EBI01775.jpg', '/Look7/EBI01776.jpg',
-    '/Look7/EBI01777.jpg', '/Look7/EBI01778.jpg', '/Look7/EBI01780.jpg'
+    '/Look7/a (18).jpg', '/Look7/b (16).jpg', '/Look7/b (17).jpg', '/Look7/b (16) - Copy.jpg',
+    '/Look7/c (14).jpg', '/Look7/d (12).jpg', '/Look7/e (11).jpg', '/Look7/f (8).jpg',
+    '/Look7/f (15).jpg'
   ],
   7: [
-    '/Look8/EBI01755.jpg', '/Look8/EBI01758.jpg', '/Look8/EBI01759.jpg', '/Look8/EBI01760.jpg'
+    '/Look8/a (14).jpg', '/Look8/a (15).jpg', '/Look8/b (14).jpg', '/Look8/c (12).jpg',
+    '/Look8/e (10).jpg', '/Look8/f (14).jpg'
   ],
   8: [
-    '/Look9/a (5).JPG', '/Look9/a (6).JPG', '/Look9/a (7).JPG', '/Look9/a (8).JPG', '/Look9/a (9).JPG',
-    '/Look9/b (10).JPG', '/Look9/b (5).JPG', '/Look9/b (6).JPG', '/Look9/b (7).JPG', '/Look9/b (8).JPG',
-    '/Look9/b (9).JPG', '/Look9/c (4).JPG', '/Look9/c (5).JPG', '/Look9/c (6).JPG', '/Look9/c (7).JPG',
-    '/Look9/c (8) - Copy.JPG', '/Look9/c (8).JPG', '/Look9/d (3).JPG', '/Look9/d (4).JPG', '/Look9/d (5).JPG',
-    '/Look9/d (6).JPG', '/Look9/e (4).JPG', '/Look9/e (5).JPG', '/Look9/e (6).JPG', '/Look9/f (10).JPG',
-    '/Look9/f (11).JPG', '/Look9/f (18).JPG', '/Look9/f (19).JPG', '/Look9/f (3).JPG', '/Look9/f (4).JPG',
-    '/Look9/f (5).JPG', '/Look9/f (9) - Copy.JPG', '/Look9/f (9).JPG'
+    '/Look9/a (16).jpg', '/Look9/b (15).jpg', '/Look9/c (13).jpg', '/Look9/d (11).jpg',
+    '/Look9/e (2).jpg'
   ],
 };
 
